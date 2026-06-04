@@ -236,7 +236,7 @@ async function submitPayment() {
   btn.innerHTML = '<span class="spinner"></span>Processing…';
   errEl.textContent = "";
 
-  const realStripe = window.STRIPE_PK !== "YOUR_STRIPE_PUBLISHABLE_KEY";
+  const realStripe = window.STRIPE_PK !== "pk_live_51TbJcvBfcMB3uLr236hE2JGdcGs3iP1edIeEZ4MfMW04lHIr4MOYs9BjOaTQcSrsFgxRSnA00IS54ActTJcWdl1600DggcONd4";
 
   if (realStripe) {
     // ── Real Stripe flow ─────────────────────────────────────
