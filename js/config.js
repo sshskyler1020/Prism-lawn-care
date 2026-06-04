@@ -49,7 +49,7 @@ window.ADMIN_EMAIL    = "sshskyler@gmail.com";
 // ─────────────────────────────────────────────────────────────
 //  Internal setup — no edits needed below this line
 // ─────────────────────────────────────────────────────────────
-const isDemo = firebaseConfig.apiKey === "AIzaSyDoHJvGMitnPxUikIrsWY0FU66lsXB8Nwc";
+const isDemo = firebaseConfig.apiKey === "";
 window.__demoMode = isDemo;
 
 if (!isDemo) {
