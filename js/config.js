@@ -43,13 +43,13 @@ const firebaseConfig = {
 window.STRIPE_PK = "pk_live_51TbJcvBfcMB3uLr236hE2JGdcGs3iP1edIeEZ4MfMW04lHIr4MOYs9BjOaTQcSrsFgxRSnA00IS54ActTJcWdl1600DggcONd4";
 
 // ── 🔐 Admin credentials (change these!) ─────────────────────
-window.ADMIN_PASSWORD = "PRISMLAWNCARE-FOUNDED2026";
-window.ADMIN_EMAIL    = "admin@prismlawncare.com";
+window.ADMIN_PASSWORD = "skyler10D";
+window.ADMIN_EMAIL    = "sshskyler@gmail.com";
 
 // ─────────────────────────────────────────────────────────────
 //  Internal setup — no edits needed below this line
 // ─────────────────────────────────────────────────────────────
-const isDemo = firebaseConfig.apiKey === "YOUR_API_KEY";
+const isDemo = firebaseConfig.apiKey === "AIzaSyDoHJvGMitnPxUikIrsWY0FU66lsXB8Nwc";
 window.__demoMode = isDemo;
 
 if (!isDemo) {
