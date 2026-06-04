@@ -16,7 +16,7 @@ document.addEventListener("firebase-ready", () => {
 });
 
 function initStripe() {
-  const realStripe = window.STRIPE_PK !== "YOUR_STRIPE_PUBLISHABLE_KEY";
+  const realStripe = window.STRIPE_PK !== "AIzaSyDoHJvGMitnPxUikIrsWY0FU66lsXB8Nwc";
   if (!realStripe) return; // Stay in demo mode
 
   stripeInstance = Stripe(window.STRIPE_PK);
