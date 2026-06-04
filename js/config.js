@@ -30,12 +30,13 @@ import {
 
 // ── 🔥 Replace with your Firebase project config ──────────────
 const firebaseConfig = {
-  apiKey:            "YOUR_API_KEY",
-  authDomain:        "YOUR_PROJECT.firebaseapp.com",
-  projectId:         "YOUR_PROJECT_ID",
-  storageBucket:     "YOUR_PROJECT.appspot.com",
-  messagingSenderId: "YOUR_SENDER_ID",
-  appId:             "YOUR_APP_ID"
+  apiKey: "AIzaSyDoHJvGMitnPxUikIrsWY0FU66lsXB8Nwc",
+  authDomain: "prism-lawncare.firebaseapp.com",
+  projectId: "prism-lawncare",
+  storageBucket: "prism-lawncare.firebasestorage.app",
+  messagingSenderId: "1008180928619",
+  appId: "1:1008180928619:web:2ce9c7c67653b8a36c912e",
+  measurementId: "G-1Q00RXQQ9Y"
 };
 
 // ── 💳 Replace with your Stripe Publishable Key ───────────────
